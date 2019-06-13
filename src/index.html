@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ip pinger</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="form">
+      <input type="text" name="ip-01" value="127">.
+      <input type="text" name="ip-02" value="0">.
+      <input type="text" name="ip-03" value="0">.
+      <input type="text" name="ip-04" value="1">
+      <button class="clear">clear</button>
+    </div>
+
+    <div class="result">
+      <table>
+        <thead>
+          <tr>
+            <th>ip</th>
+            <th>status</th>
+            <th>checkedAt</th>
+            <th>succeedCount</th>
+            <th>missedCount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="./client.js"></script>
+  </body>
+</html>

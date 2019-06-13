@@ -1,0 +1,30 @@
+.form {
+  margin: 2em 0;
+  text-align: center;
+}
+
+
+.result table {
+  width: 100%;
+  border-spacing: 0 .25ex;
+}
+
+.result tr {
+  transition: background .2s ease;
+}
+
+.result tr:hover {
+  background: #ff9;
+}
+
+.result tr.is-mark {
+  background: #9ff;
+}
+
+.result th,
+.result td {
+  width: 20%;
+  padding: .5ex 0;
+  border-bottom: .1ex solid transparent;
+  text-align: center;
+}
